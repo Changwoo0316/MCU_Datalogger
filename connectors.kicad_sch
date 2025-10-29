@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "ea0e0c90-51dd-43e2-b402-eef1dba82939")
+	(uuid "271ac860-fe9b-41b7-ba78-4d9c0228dc67")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector:Conn_01x04_Pin"
@@ -984,7 +984,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 96.52 76.2 0)
 			(effects
 				(font
@@ -1065,7 +1065,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
 			(at 125.73 105.41 0)
 			(effects
 				(font
@@ -1136,7 +1136,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "738c12d6-cd12-4095-8dee-a0fcc7c2b6e5")
-		(property "Reference" "J3"
+		(property "Reference" "J2"
 			(at 95.885 91.44 0)
 			(effects
 				(font
@@ -1152,7 +1152,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical"
 			(at 95.25 106.68 0)
 			(effects
 				(font
@@ -1217,7 +1217,7 @@
 		(instances
 			(project ""
 				(path "/be1eed37-8a6f-4061-89c1-54ae666185b6/b4f41415-82b1-4959-a14a-21198429c3d7"
-					(reference "J3")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -1232,7 +1232,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d0a83a76-0a45-4a6c-9437-8e1ba4c3a3dd")
-		(property "Reference" "J2"
+		(property "Reference" "J3"
 			(at 125.095 68.58 0)
 			(effects
 				(font
@@ -1248,7 +1248,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 124.46 76.2 0)
 			(effects
 				(font
@@ -1298,7 +1298,7 @@
 		(instances
 			(project "MCU_Datalogger"
 				(path "/be1eed37-8a6f-4061-89c1-54ae666185b6/b4f41415-82b1-4959-a14a-21198429c3d7"
-					(reference "J2")
+					(reference "J3")
 					(unit 1)
 				)
 			)
