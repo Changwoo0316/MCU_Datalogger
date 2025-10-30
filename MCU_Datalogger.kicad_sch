@@ -3809,6 +3809,16 @@
 		)
 		(uuid "0adfe4ec-b8e1-4708-b7f7-3b5486fe16a1")
 	)
+	(label "VCC"
+		(at 260.35 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0e6ea508-3b60-457f-a8a6-eeb10589c2a4")
+	)
 	(label "MOSI"
 		(at 194.31 54.61 180)
 		(effects
