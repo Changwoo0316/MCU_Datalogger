@@ -1036,6 +1036,17 @@
 			(uuid "af2c48b8-e4c8-4a92-bd08-b3bbb33d560e")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/Project_3D/DS1337S.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
@@ -1914,7 +1925,7 @@
 			(uuid "2b11d167-c044-4176-86c3-b18a0e7a02ec")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Package_SO.3dshapes/SOIC-8_5.23x5.23mm_P1.27mm.wrl"
+		(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8_3.9x4.9mm_P1.27mm.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4642,7 +4653,7 @@
 			(uuid "bf33f84b-9327-42d3-976e-1e68f9b9174e")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Package_SO.3dshapes/SOIC-8_5.23x5.23mm_P1.27mm.wrl"
+		(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8_3.9x4.9mm_P1.27mm.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7252,6 +7263,17 @@
 			(uuid "2106ad8f-f498-48e6-ba28-9aeaa366813c")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/Project_3D/ATMEGA328P-AU.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Symbol:KiCad-Logo2_5mm_SilkScreen"
 		(layer "B.Cu")
