@@ -87,7 +87,7 @@
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
-			(usegerberextensions no)
+			(usegerberextensions yes)
 			(usegerberattributes yes)
 			(usegerberadvancedattributes yes)
 			(creategerberjobfile yes)
@@ -118,9 +118,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "MCU_Datalogger_Gerbers/")
 		)
 	)
 	(property "project_name" "MCU Datalogger with memory and clock")
@@ -7935,8 +7935,8 @@
 		(embedded_fonts no)
 	)
 	(gr_rect
-		(start 173.0375 75.946)
-		(end 179.7685 81.788)
+		(start 173.101 74.93)
+		(end 179.832 80.772)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -8052,7 +8052,7 @@
 		)
 	)
 	(gr_text "   ICSP\nMISO|VCC\nSCK |MOSI\nRST |GND"
-		(at 173.101 81.153 0)
+		(at 173.1645 80.137 0)
 		(layer "F.SilkS")
 		(uuid "30eb385b-7260-4f73-b04e-372250d5d220")
 		(effects
@@ -8160,6 +8160,17 @@
 		)
 	)
 	(gr_text "GND"
+		(at 138.938 72.025946 90)
+		(layer "F.SilkS")
+		(uuid "b333cf52-0e31-4247-9830-705c5c52ed7a")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+		)
+	)
+	(gr_text "GND"
 		(at 181.102 76.073 90)
 		(layer "F.SilkS")
 		(uuid "cb7c0db3-9faa-4e15-8483-446efc8117ff")
@@ -8193,6 +8204,17 @@
 				(thickness 0.1)
 			)
 			(justify left bottom)
+		)
+	)
+	(gr_text "VCC"
+		(at 138.938 69.215 90)
+		(layer "F.SilkS")
+		(uuid "dba51933-ccee-4167-bdae-4c5b75feccca")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
 		)
 	)
 	(gr_text "8"
@@ -8253,6 +8275,282 @@
 				(thickness 0.1)
 			)
 			(justify left bottom mirror)
+		)
+	)
+	(gr_text "아니오"
+		(at 198.374 84.281 0)
+		(layer "User.1")
+		(uuid "024beb6d-559c-446d-abae-77910a81a31b")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "0.0000 mm / 0.0000 mm"
+		(at 198.374 72.41 0)
+		(layer "User.1")
+		(uuid "0a983ad5-32d9-4892-8cd3-8d52e51ec7dc")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "에지 카드 커넥터: "
+		(at 191.288286 84.281 0)
+		(layer "User.1")
+		(uuid "0c414b42-b698-4c6b-9295-4bd5ad68334d")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "50.0380 mm x 30.2260 mm"
+		(at 198.374 68.453 0)
+		(layer "User.1")
+		(uuid "12ba456c-d904-411c-8eb2-0820421c4aa2")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text ""
+		(at 238.473995 68.453 0)
+		(layer "User.1")
+		(uuid "20e7e6ee-bc26-4367-8c6a-369b7a2de933")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "구리 마감: "
+		(at 191.288286 76.367 0)
+		(layer "User.1")
+		(uuid "2fff9406-de33-4bdb-ae89-b6be5e737ebb")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "None"
+		(at 198.374 76.367 0)
+		(layer "User.1")
+		(uuid "323d0f85-7720-4ebf-bf20-7c521bfe9bfd")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "최소 배선/간격: "
+		(at 191.288286 72.41 0)
+		(layer "User.1")
+		(uuid "5ba32783-6bee-4d13-b57c-ccdc6d2f276d")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "구리 레이어 수: "
+		(at 191.288286 64.496 0)
+		(layer "User.1")
+		(uuid "63ecccfb-8399-4f4e-9a21-885cc404782d")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "0.3000 mm"
+		(at 238.473995 72.41 0)
+		(layer "User.1")
+		(uuid "67836fc3-8a05-4743-a46b-eb354e10e9e1")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "기판 특성"
+		(at 190.538286 59.002 0)
+		(layer "User.1")
+		(uuid "6dbe3ea6-cdb1-4cda-b928-00b7e0f8923e")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "아니오"
+		(at 238.473995 76.367 0)
+		(layer "User.1")
+		(uuid "70f9827d-beab-4e9d-a1f9-02a482985246")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "성곽 패드: "
+		(at 191.288286 80.324 0)
+		(layer "User.1")
+		(uuid "7afb9ce7-51c7-4d47-bb9a-16548c09195e")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "아니오"
+		(at 198.374 80.324 0)
+		(layer "User.1")
+		(uuid "946cfcca-c861-4812-9804-59b73d6df9a0")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "보드 두께: "
+		(at 232.531138 64.496 0)
+		(layer "User.1")
+		(uuid "a06d19f7-640a-4e7a-b5b9-70948f9773e8")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "임피던스 제어: "
+		(at 232.531138 76.367 0)
+		(layer "User.1")
+		(uuid "abb1dbc7-ffa0-43fa-92ec-2bffa03dbf07")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "아니오"
+		(at 238.473995 80.324 0)
+		(layer "User.1")
+		(uuid "bc14ddc8-cba9-4a0b-aec1-d5702f896e48")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "1.6000 mm"
+		(at 238.473995 64.496 0)
+		(layer "User.1")
+		(uuid "c69ba1eb-d728-4ee8-8053-cb38a04e7618")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "도금된 보드 가장자리: "
+		(at 232.531138 80.324 0)
+		(layer "User.1")
+		(uuid "d609176a-a368-465c-92de-645c2fd25c5e")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "최소 홀 직경: "
+		(at 232.531138 72.41 0)
+		(layer "User.1")
+		(uuid "dca1adea-6183-4fda-b52b-a555a3d43424")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text ""
+		(at 232.531138 68.453 0)
+		(layer "User.1")
+		(uuid "e16487be-2d86-4081-8b77-5df0caf95885")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "2"
+		(at 198.374 64.496 0)
+		(layer "User.1")
+		(uuid "e62ef055-0676-4ae4-bc63-d24a09991c62")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "보드 전체 치수 : "
+		(at 191.288286 68.453 0)
+		(layer "User.1")
+		(uuid "f670c0d5-c825-46e9-9409-c86a2b0eb398")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+			(justify left top)
 		)
 	)
 	(segment
@@ -14092,6 +14390,22 @@
 	(group ""
 		(uuid "9805ca8f-5596-475a-9ba4-cbd147e68ad1")
 		(members "30eb385b-7260-4f73-b04e-372250d5d220" "bd1d8485-e077-474a-ad21-acf501712978")
+	)
+	(group "group-boardCharacteristics"
+		(uuid "dda7be30-6aa3-4a92-b35f-f3d23445392f")
+		(members "024beb6d-559c-446d-abae-77910a81a31b" "0a983ad5-32d9-4892-8cd3-8d52e51ec7dc"
+			"0c414b42-b698-4c6b-9295-4bd5ad68334d" "12ba456c-d904-411c-8eb2-0820421c4aa2"
+			"20e7e6ee-bc26-4367-8c6a-369b7a2de933" "2fff9406-de33-4bdb-ae89-b6be5e737ebb"
+			"323d0f85-7720-4ebf-bf20-7c521bfe9bfd" "5ba32783-6bee-4d13-b57c-ccdc6d2f276d"
+			"63ecccfb-8399-4f4e-9a21-885cc404782d" "67836fc3-8a05-4743-a46b-eb354e10e9e1"
+			"6dbe3ea6-cdb1-4cda-b928-00b7e0f8923e" "70f9827d-beab-4e9d-a1f9-02a482985246"
+			"7afb9ce7-51c7-4d47-bb9a-16548c09195e" "946cfcca-c861-4812-9804-59b73d6df9a0"
+			"a06d19f7-640a-4e7a-b5b9-70948f9773e8" "abb1dbc7-ffa0-43fa-92ec-2bffa03dbf07"
+			"bc14ddc8-cba9-4a0b-aec1-d5702f896e48" "c69ba1eb-d728-4ee8-8053-cb38a04e7618"
+			"d609176a-a368-465c-92de-645c2fd25c5e" "dca1adea-6183-4fda-b52b-a555a3d43424"
+			"e16487be-2d86-4081-8b77-5df0caf95885" "e62ef055-0676-4ae4-bc63-d24a09991c62"
+			"f670c0d5-c825-46e9-9409-c86a2b0eb398"
+		)
 	)
 	(embedded_fonts no)
 )
