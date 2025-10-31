@@ -3952,7 +3952,7 @@
 		)
 		(uuid "8abe6cb1-4bab-4bac-9da3-720540143f5b")
 	)
-	(label "SCK"
+	(label "SCL"
 		(at 118.11 153.67 180)
 		(effects
 			(font
